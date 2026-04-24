@@ -1,8 +1,12 @@
+import React from 'react'
 
-export default function Footer({length}) {
+const Footer = ({ length }) => {
   return (
     <footer>
-      <p>{length} List {length===1?"item":"items"}</p>
+      <p>{length} List {length === 1 ? "item" : "items"}</p>
     </footer>
   )
 }
+
+export default Footer
+
